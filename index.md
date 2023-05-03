@@ -11,8 +11,6 @@ Tools utilised :
 
 OpenCV, Matplotlib, numpy
 
-<center><img src="assets/img/obj_detect.png"><center>
-
 ```python
 
 #Implementation
@@ -21,7 +19,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
   
-image = cv2.imread('assets/img/coins.jpg')
+image = cv2.imread('assets/img/coins.png')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
   
 blur = cv2.GaussianBlur(gray, (11, 11), 0)
